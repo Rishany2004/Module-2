@@ -2,9 +2,8 @@
 ## FUNCTIONS - PERFECT NUMBER
 
 ### AIM  
-To write a Python program to check if a number is a Perfect number using the concept of functions.
 
----
+To write a Python program to check if a number is a Perfect number using the concept of functions.
 
 ### ALGORITHM
 
@@ -18,15 +17,24 @@ To write a Python program to check if a number is a Perfect number using the con
     - If `factor_sum` is equal to `n`, then print the number is a perfect number. Otherwise, print it's not a perfect number.  
 5. Terminate the program.
 
----
-
 ### PROGRAM
-```
-#Reg.No:
-#Name:
-#Add your Code Here
+```def perfect_num(num):
+  
+    sume=0  
+    for i in range(1,num):  
+        if (num%i==0):  
+            sume=sume+i  
+    if(sume==num):  
+        print("The number is a Perfect number!")  
+    else:  
+        print("The number is not a Perfect number!") 
 
+num=int(input())
+perfect_num(num)
 ```
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/e72df6ad-6076-4a18-b1ed-b680a62155ab)
+
 ### RESULT
+Thus the Python program to check whether a number is a Perfect Number using functions was executed successfully and the output was verified.
