@@ -26,6 +26,5 @@ print(f(a,b))
 
 ![image](https://github.com/user-attachments/assets/ee7de341-461d-40b7-b1fe-6fca4434af74)
 
-
 ### RESULT
 Thus the Python program using a lambda function to compare two numbers and display their relation was executed successfully and the output was verified.
