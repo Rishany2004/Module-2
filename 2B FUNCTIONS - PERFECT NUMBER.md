@@ -14,11 +14,13 @@ To write a Python program to check if a number is a Perfect number using the con
     - Initialize a variable `factor_sum` to 0.  
     - Iterate through all numbers from 1 to `n//2` (as divisors of a number can't be greater than half of it).  
     - If a number `i` divides `n` perfectly (i.e., `n % i == 0`), add `i` to `factor_sum`.  
-    - If `factor_sum` is equal to `n`, then print the number is a perfect number. Otherwise, print it's not a perfect number.  
+    - If `factor_sum` is equal to `n`, then print the number is a perfect number. Otherwise, print it's not a perfect 
+      number.  
 5. Terminate the program.
 
 ### PROGRAM
-```def perfect_num(num):
+```
+def perfect_num(num):
   
     sume=0  
     for i in range(1,num):  
